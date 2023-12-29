@@ -8,43 +8,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table id="calculator_container">
-        <tr>
-            <td colspan="4">
-                <input type="text" name="" id="result">
-            </td>
-    
-        </tr>
-        <tr>
-            <td><input type="button" value="C" class="white_"></td>
-            <td><input type="button" value="±" class="white_"></td>
-            <td><input type="button" value="%" class="white_"></td>
-            <td><input type="button" value="/" class="yellow_"></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="7" class="black_"></td>
-            <td><input type="button" value="8" class="black_"></td>
-            <td><input type="button" value="9" class="black_"></td>
-            <td><input type="button" value="x" class="yellow_"></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="4" class="black_"></td>
-            <td><input type="button" value="5" class="black_"></td>
-            <td><input type="button" value="6" class="black_"></td>
-            <td><input type="button" value="-" class="yellow_"></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="1" class="black_"></td>
-            <td><input type="button" value="2" class="black_"></td>
-            <td><input type="button" value="3" class="black_"></td>
-            <td><input type="button" value="+" class="yellow_"></td>
-        </tr>
-        <tr>
-            <td colspan="2"><input type="button" value="0" class="black_" id="zero"></td>
-            <td><input type="button" value="." class="black_"></td>
-            <td><input type="button" value="=" class="yellow_"></td>
-        </tr>
-    </table>
+    <div class="head_container">
+        <input type="text" class="display">
+        <div class="button">
+            <button data-value="AC">AC</button>
+            <button data-value="DEL">DEL</button>
+            <button data-value="%">%</button>
+            <button data-value="/">/</button>
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+            <button data-value="*">*</button>
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button data-value="-">-</button>
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button data-value="+">+</button>
+            <button data-value="0">0</button>
+            <button data-value="00">00</button>
+            <button data-value=".">.</button>
+            <button data-value="=">=</button>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
